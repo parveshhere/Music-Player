@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: url("blob-scene-haikei (8).svg");
+    background-size: cover;
+}
+
+.upper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.navigate {
+    margin: 0px 80px;
+}
+
+.iconify {
+    transition: all 3s ease-in-out;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+    height: 65px;
+
+}
+
+.cover img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    transition: 2s ease-in-out;
+    width: 1200px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.playbar {
+    display: flex;
+
+}
